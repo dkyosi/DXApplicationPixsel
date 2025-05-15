@@ -59,6 +59,7 @@ namespace DXApplicationProj
                 return;
             }
             _rootObject.deviceTypes.countByType.Remove(type);
+            Save();
             MessageBox.Show("Device Removed");
         }
 

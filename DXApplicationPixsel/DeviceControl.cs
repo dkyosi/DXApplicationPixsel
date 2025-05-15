@@ -34,16 +34,26 @@ namespace DXApplicationPixsel
                 MessageBox.Show("Please enter device count type");
                 return;
             }
-            if (textBoxDeviceCount.Text.Length == 0) {
+            if (textBoxDeviceCount.Text.Length == 0)
+            {
                 MessageBox.Show("Please enter count");
                 return;
             }
-            _loadJsonData.AddDeviceType(textBoxDeviceCountType.Text,Convert.ToInt32(textBoxDeviceCount.Text));
+            _loadJsonData.AddDeviceType(textBoxDeviceCountType.Text, Convert.ToInt32(textBoxDeviceCount.Text));
             var deviceDict = _loadJsonData.LoadDeviceTypes();
             if (deviceDict != null)
             {
                 dataGridViewDevices.DataSource = deviceDict.Select(k => new { Make = k.Key, Value = k.Value }).ToList();
             }
+        }
+
+        private void buttonDelete_Click(object sender, EventArgs e)
+        {
+            if (textBoxDil.Text.Length == 0) {
+                MessageBox.Show("Please enter item to delete");
+                return;
+            }
+            _loadJsonData.DeleteDeviceType(textBoxDil.Text);
         }
     }
 }

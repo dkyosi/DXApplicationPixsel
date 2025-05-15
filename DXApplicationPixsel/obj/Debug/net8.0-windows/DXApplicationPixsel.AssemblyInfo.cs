@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DXApplicationPixsel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdeafe44cf65c7fd8640080319a4dc1be53e8a73")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e3c681405e0d80b5ac224f45dcff6aec281a3f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("DXApplicationPixsel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DXApplicationPixsel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
