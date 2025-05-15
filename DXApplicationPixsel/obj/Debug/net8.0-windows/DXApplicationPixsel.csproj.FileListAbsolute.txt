@@ -157,3 +157,5 @@ C:\Users\dk\source\repos\DXApplicationPixsel\DXApplicationPixsel\obj\Debug\net8.
 C:\Users\dk\source\repos\DXApplicationPixsel\DXApplicationPixsel\obj\Debug\net8.0-windows\DXApplicationPixsel.pdb
 C:\Users\dk\source\repos\DXApplicationPixsel\DXApplicationPixsel\obj\Debug\net8.0-windows\DXApplicationPixsel.genruntimeconfig.cache
 C:\Users\dk\source\repos\DXApplicationPixsel\DXApplicationPixsel\obj\Debug\net8.0-windows\ref\DXApplicationPixsel.dll
+C:\Users\dk\source\repos\DXApplicationPixsel\DXApplicationPixsel\obj\Debug\net8.0-windows\DXApplicationPixsel.sourcelink.json
+C:\Users\dk\source\repos\DXApplicationPixsel\DXApplicationPixsel\obj\Debug\net8.0-windows\DXApplicationPixsel.OverviewControl.resources

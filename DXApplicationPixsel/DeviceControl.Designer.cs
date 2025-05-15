@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             panel1 = new System.Windows.Forms.Panel();
+            textBoxDiv = new System.Windows.Forms.TextBox();
+            buttonDelete = new System.Windows.Forms.Button();
             panel3 = new System.Windows.Forms.Panel();
             buttonAddDevice = new System.Windows.Forms.Button();
             textBoxDeviceCount = new System.Windows.Forms.TextBox();
@@ -44,12 +46,33 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(textBoxDiv);
+            panel1.Controls.Add(buttonDelete);
             panel1.Controls.Add(panel3);
             panel1.Dock = System.Windows.Forms.DockStyle.Top;
             panel1.Location = new System.Drawing.Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new System.Drawing.Size(1035, 188);
             panel1.TabIndex = 0;
+            // 
+            // textBoxDiv
+            // 
+            textBoxDiv.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+            textBoxDiv.Location = new System.Drawing.Point(828, 68);
+            textBoxDiv.Name = "textBoxDiv";
+            textBoxDiv.PlaceholderText = "Enter device type";
+            textBoxDiv.Size = new System.Drawing.Size(184, 31);
+            textBoxDiv.TabIndex = 2;
+            // 
+            // buttonDelete
+            // 
+            buttonDelete.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+            buttonDelete.Location = new System.Drawing.Point(828, 130);
+            buttonDelete.Name = "buttonDelete";
+            buttonDelete.Size = new System.Drawing.Size(184, 34);
+            buttonDelete.TabIndex = 1;
+            buttonDelete.Text = "Delete Device";
+            buttonDelete.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
@@ -133,6 +156,7 @@
             Name = "DeviceControl";
             Size = new System.Drawing.Size(1035, 625);
             panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             panel2.ResumeLayout(false);
@@ -150,5 +174,7 @@
         private System.Windows.Forms.TextBox textBoxDeviceCount;
         private System.Windows.Forms.TextBox textBoxDeviceCountType;
         private System.Windows.Forms.Button buttonAddDevice;
+        private System.Windows.Forms.Button buttonDelete;
+        private System.Windows.Forms.TextBox textBoxDiv;
     }
 }

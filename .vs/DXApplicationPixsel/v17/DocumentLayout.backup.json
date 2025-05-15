@@ -1,120 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dk\\source\\repos\\DXApplicationPixsel\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{F9DA11B1-77ED-483D-8913-33EA3CF201CD}|DXApplicationPixsel\\DXApplicationPixsel.csproj|c:\\users\\dk\\source\\repos\\dxapplicationpixsel\\dxapplicationpixsel\\workstationcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9DA11B1-77ED-483D-8913-33EA3CF201CD}|DXApplicationPixsel\\DXApplicationPixsel.csproj|solutionrelative:dxapplicationpixsel\\workstationcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9DA11B1-77ED-483D-8913-33EA3CF201CD}|DXApplicationPixsel\\DXApplicationPixsel.csproj|c:\\users\\dk\\source\\repos\\dxapplicationpixsel\\dxapplicationpixsel\\loadjsondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9DA11B1-77ED-483D-8913-33EA3CF201CD}|DXApplicationPixsel\\DXApplicationPixsel.csproj|solutionrelative:dxapplicationpixsel\\loadjsondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9DA11B1-77ED-483D-8913-33EA3CF201CD}|DXApplicationPixsel\\DXApplicationPixsel.csproj|c:\\users\\dk\\source\\repos\\dxapplicationpixsel\\dxapplicationpixsel\\devicecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9DA11B1-77ED-483D-8913-33EA3CF201CD}|DXApplicationPixsel\\DXApplicationPixsel.csproj|solutionrelative:dxapplicationpixsel\\devicecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9DA11B1-77ED-483D-8913-33EA3CF201CD}|DXApplicationPixsel\\DXApplicationPixsel.csproj|c:\\users\\dk\\source\\repos\\dxapplicationpixsel\\dxapplicationpixsel\\workstationcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F9DA11B1-77ED-483D-8913-33EA3CF201CD}|DXApplicationPixsel\\DXApplicationPixsel.csproj|solutionrelative:dxapplicationpixsel\\workstationcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9DA11B1-77ED-483D-8913-33EA3CF201CD}|DXApplicationPixsel\\DXApplicationPixsel.csproj|c:\\users\\dk\\source\\repos\\dxapplicationpixsel\\dxapplicationpixsel\\devicecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F9DA11B1-77ED-483D-8913-33EA3CF201CD}|DXApplicationPixsel\\DXApplicationPixsel.csproj|solutionrelative:dxapplicationpixsel\\devicecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9DA11B1-77ED-483D-8913-33EA3CF201CD}|DXApplicationPixsel\\DXApplicationPixsel.csproj|c:\\users\\dk\\source\\repos\\dxapplicationpixsel\\dxapplicationpixsel\\devicetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9DA11B1-77ED-483D-8913-33EA3CF201CD}|DXApplicationPixsel\\DXApplicationPixsel.csproj|solutionrelative:dxapplicationpixsel\\devicetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoadJsonData.cs",
-              "DocumentMoniker": "C:\\Users\\dk\\source\\repos\\DXApplicationPixsel\\DXApplicationPixsel\\LoadJsonData.cs",
-              "RelativeDocumentMoniker": "DXApplicationPixsel\\LoadJsonData.cs",
-              "ToolTip": "C:\\Users\\dk\\source\\repos\\DXApplicationPixsel\\DXApplicationPixsel\\LoadJsonData.cs",
-              "RelativeToolTip": "DXApplicationPixsel\\LoadJsonData.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAnwDQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:38:13.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WorkstationControl.cs",
-              "DocumentMoniker": "C:\\Users\\dk\\source\\repos\\DXApplicationPixsel\\DXApplicationPixsel\\WorkstationControl.cs",
-              "RelativeDocumentMoniker": "DXApplicationPixsel\\WorkstationControl.cs",
-              "ToolTip": "C:\\Users\\dk\\source\\repos\\DXApplicationPixsel\\DXApplicationPixsel\\WorkstationControl.cs*",
-              "RelativeToolTip": "DXApplicationPixsel\\WorkstationControl.cs*",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:35:51.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WorkstationControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dk\\source\\repos\\DXApplicationPixsel\\DXApplicationPixsel\\WorkstationControl.cs",
-              "RelativeDocumentMoniker": "DXApplicationPixsel\\WorkstationControl.cs",
-              "ToolTip": "C:\\Users\\dk\\source\\repos\\DXApplicationPixsel\\DXApplicationPixsel\\WorkstationControl.cs [Design]*",
-              "RelativeToolTip": "DXApplicationPixsel\\WorkstationControl.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:33:20.433Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DeviceControl.cs",
-              "DocumentMoniker": "C:\\Users\\dk\\source\\repos\\DXApplicationPixsel\\DXApplicationPixsel\\DeviceControl.cs",
-              "RelativeDocumentMoniker": "DXApplicationPixsel\\DeviceControl.cs",
-              "ToolTip": "C:\\Users\\dk\\source\\repos\\DXApplicationPixsel\\DXApplicationPixsel\\DeviceControl.cs",
-              "RelativeToolTip": "DXApplicationPixsel\\DeviceControl.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:24:54.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DeviceTypes.cs",
-              "DocumentMoniker": "C:\\Users\\dk\\source\\repos\\DXApplicationPixsel\\DXApplicationPixsel\\DeviceTypes.cs",
-              "RelativeDocumentMoniker": "DXApplicationPixsel\\DeviceTypes.cs",
-              "ToolTip": "C:\\Users\\dk\\source\\repos\\DXApplicationPixsel\\DXApplicationPixsel\\DeviceTypes.cs",
-              "RelativeToolTip": "DXApplicationPixsel\\DeviceTypes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:22:54.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DeviceControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dk\\source\\repos\\DXApplicationPixsel\\DXApplicationPixsel\\DeviceControl.cs",
-              "RelativeDocumentMoniker": "DXApplicationPixsel\\DeviceControl.cs",
-              "ToolTip": "C:\\Users\\dk\\source\\repos\\DXApplicationPixsel\\DXApplicationPixsel\\DeviceControl.cs [Design]",
-              "RelativeToolTip": "DXApplicationPixsel\\DeviceControl.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:17:08.484Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

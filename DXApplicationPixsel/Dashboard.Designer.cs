@@ -32,6 +32,7 @@
             panel1 = new System.Windows.Forms.Panel();
             contentPanel = new System.Windows.Forms.Panel();
             panel3 = new System.Windows.Forms.Panel();
+            simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
             simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             panel2 = new System.Windows.Forms.Panel();
@@ -68,6 +69,7 @@
             // panel3
             // 
             panel3.BackColor = System.Drawing.Color.White;
+            panel3.Controls.Add(simpleButton3);
             panel3.Controls.Add(simpleButton2);
             panel3.Controls.Add(simpleButton1);
             panel3.Dock = System.Windows.Forms.DockStyle.Left;
@@ -76,11 +78,23 @@
             panel3.Size = new System.Drawing.Size(158, 331);
             panel3.TabIndex = 1;
             // 
+            // simpleButton3
+            // 
+            simpleButton3.Appearance.ForeColor = System.Drawing.Color.FromArgb(128, 128, 255);
+            simpleButton3.Appearance.Options.UseForeColor = true;
+            simpleButton3.Location = new System.Drawing.Point(23, 18);
+            simpleButton3.Name = "simpleButton3";
+            simpleButton3.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
+            simpleButton3.Size = new System.Drawing.Size(100, 51);
+            simpleButton3.TabIndex = 2;
+            simpleButton3.Text = "Overview";
+            simpleButton3.Click += simpleButton3_Click;
+            // 
             // simpleButton2
             // 
             simpleButton2.Appearance.ForeColor = System.Drawing.Color.FromArgb(128, 128, 255);
             simpleButton2.Appearance.Options.UseForeColor = true;
-            simpleButton2.Location = new System.Drawing.Point(23, 92);
+            simpleButton2.Location = new System.Drawing.Point(23, 132);
             simpleButton2.Name = "simpleButton2";
             simpleButton2.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
             simpleButton2.Size = new System.Drawing.Size(100, 51);
@@ -92,7 +106,7 @@
             // 
             simpleButton1.Appearance.ForeColor = System.Drawing.Color.FromArgb(128, 128, 255);
             simpleButton1.Appearance.Options.UseForeColor = true;
-            simpleButton1.Location = new System.Drawing.Point(23, 25);
+            simpleButton1.Location = new System.Drawing.Point(23, 75);
             simpleButton1.Name = "simpleButton1";
             simpleButton1.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
             simpleButton1.Size = new System.Drawing.Size(100, 51);
@@ -198,6 +212,7 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel contentPanel;
+        private DevExpress.XtraEditors.SimpleButton simpleButton3;
     }
 }
 

@@ -48,6 +48,18 @@ namespace DXApplicationProj
                 _rootObject.deviceTypes.countByType[type] = count;
             }
             Save();
+            MessageBox.Show("Device Added");
+        }
+
+        public void DeleteDeviceType(string type)
+        {
+            if (!_rootObject.deviceTypes.countByType.ContainsKey(type))
+            {
+                MessageBox.Show("Key not found!");
+                return;
+            }
+            _rootObject.deviceTypes.countByType.Remove(type);
+            MessageBox.Show("Device Removed");
         }
 
         public void AddPanelType(string type, int count)
@@ -61,7 +73,10 @@ namespace DXApplicationProj
                 _rootObject.panelsInWorkstations.workStationCountByPanel[type] = count;
             }
             Save();
+            MessageBox.Show("Panel Added");
         }
+
+
 
         private void Save()
         {

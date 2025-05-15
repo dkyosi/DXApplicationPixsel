@@ -8,6 +8,9 @@
     <Compile Update="DeviceControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="OverviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="WorkstationControl.cs">
       <SubType>UserControl</SubType>
     </Compile>

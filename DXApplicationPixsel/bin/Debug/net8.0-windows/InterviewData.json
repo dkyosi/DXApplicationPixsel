@@ -262,9 +262,8 @@
       "NEURON_FRAME": 10,
       "NEURON_CARD": 10,
       "NEURON_CARD_ch": 80,
-      "New": 20,
-      "Test": 7,
-      "Another": 100
+      "added": 23,
+      "dev1": 30
     }
   },
   "panelsInWorkstations": {
@@ -1224,8 +1223,8 @@
       "adjust_synapse/U4T100": 1,
       "bncs_api_status_panel": 0,
       "tech_managers/video_tech_managers": 1,
-      "pan": 46,
-      "up": 16
+      "wk": 56,
+      "wk12": 12
     }
   }
 }

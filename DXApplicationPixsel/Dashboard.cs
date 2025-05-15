@@ -15,7 +15,7 @@ namespace DXApplicationPixsel
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
-            LoadControl(new DeviceControl());
+            LoadControl(new OverviewControl());
         }
 
         private void simpleButton1_Click(object sender, EventArgs e)
@@ -33,6 +33,11 @@ namespace DXApplicationPixsel
         private void simpleButton2_Click(object sender, EventArgs e)
         {
             LoadControl(new WorkstationControl());
+        }
+
+        private void simpleButton3_Click(object sender, EventArgs e)
+        {
+            LoadControl(new OverviewControl());
         }
     }
 }
